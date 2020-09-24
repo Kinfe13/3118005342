@@ -30,7 +30,6 @@ public class CheckPaperTest {
         //写入TXT文档
         ReadWrite.WriteFile(l1,l2,l3,l4,l5,str,str1,str2,str3,str4,str5);
 
-
     }
 
 }
