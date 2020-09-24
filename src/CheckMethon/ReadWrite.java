@@ -23,7 +23,6 @@ public class ReadWrite {
     public static void WriteFile(int l1,int l2,int l3,int l4,int l5,String str,String str1,String str2,String str3,String str4,String str5) {
         try {
             File writeName = new File("F:\\IDEA\\paperCheck\\testTXT\\test\\result.txt"); // 绝对路径
-            //writeName.createNewFile(); // 创建新文件,有同名的文件的话直接覆盖
             try (FileWriter writer = new FileWriter(writeName);
                  BufferedWriter out = new BufferedWriter(writer)
             ) {
